@@ -7,7 +7,7 @@ var redColor = '#fcd6d6';
 var buttonSvg = document.getElementById("buttonSvg");
 console.log(buttonSvg);
 
-window.addEventListener("load", () => { 
+buttonSvg.addEventListener("load", () => { 
 
 alert("anan");
 console.log("hello"); 
