@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#mainDiv
+{
+	position: inherit;
+	
+}
+#checkMark
+{
+	position: absolute;
+}
+
+#nopeMark
+{
+	position: absolute;
+	visibility: hidden;
+}
+
+
+#checkMark
+{
+	position: absolute;
+	visibility: hidden;
+}
+
+
+
+#extraBoxes
+{
+	display: none;
+}
+
+#mainSvg
+{
+	height: 500px;
+}
