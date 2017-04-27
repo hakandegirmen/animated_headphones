@@ -9,6 +9,20 @@ console.log(buttonSvg);
 
 buttonSvg.addEventListener("load", () => { 
 
+var buttonSvgDoc = buttonSvg.contentDocument;
+
+var buttonSvgDocSnap = Snap(buttonSvgDoc.getElementById("buttonSvg"));
+
+var box = buttonSvgDocSnap.selectAll('rect');
+
+
+box[0].animate({
+		fill: redColor,
+		stroke: redColor
+	}, 300);
+
+
+
 alert("anan");
 console.log("hello"); 
 
@@ -16,17 +30,7 @@ console.log("hello");
 })
 
 
-// var buttonSvgDoc = buttonSvg.contentDocument;
 
-// var buttonSvgDocSnap = Snap(buttonSvgDoc.getElementById("buttonSvg"));
-
-// var box = buttonSvgDocSnap.selectAll('rect');
-
-
-// box[0].animate({
-// 		fill: redColor,
-// 		stroke: redColor
-// 	}, 300);
 
 
 
