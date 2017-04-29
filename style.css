@@ -6,10 +6,6 @@
 	position: inherit;
 	
 }
-#checkMark
-{
-	position: absolute;
-}
 
 #nopeMark
 {
@@ -24,14 +20,24 @@
 	visibility: hidden;
 }
 
+#offState
+{
+	position: absolute;
+	visibility: hidden;
+}
 
+#button
+{
+	width: 100px;
+	height: 50px;
+}
 
 #extraBoxes
 {
 	display: none;
 }
 
-#mainSvg
+/*#mainSvg
 {
 	height: 500px;
-}
+}*/

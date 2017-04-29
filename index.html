@@ -1,7 +1,9 @@
 <!doctype html>
 <html>
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="UTF-8">	   
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link rel="stylesheet" href="style.css">
 		<title>Untitled Document</title>
 	</head>
@@ -9,26 +11,27 @@
 	
 	
 	<body>
-		<div id="testObject">
-			<object id="buttonSvg" type="image/svg+xml" data="button.svg" width="290" height="45">
+		<div id="mainDiv">
+			<object id="mainSvg" type="image/svg+xml" data="./yep_sign.svg" width="600" height="600">		
 			</object>
 		</div>
-		
-		<div id="mainDiv">
-			
-
-
-
-
-
-
-
-
-
-			
+		<div id="checkMark">
+			<object id="yepSignSvg" type="image/svg+xml" data="./yep_sign.svg" width="600" height="600">
+			</object>
 		</div>
+		<div id="nopeMark">
+			<object id="nopeSignSvg" type="image/svg+xml" data="./nope_sign.svg" width="600" height="600">
+			</object>
+		</div>
+
+		<div id="offState">
+			<object id="offStateSvg" type="image/svg+xml" data="./off_state.svg" width="600" height="600">
+			</object>
+		</div>
+
+	<script type = "text/javascript" src="./js/jquery.js"></script>
+	<script type = "text/javascript" src="./js/snap.svg.js"></script>
+	<script type = "text/javascript" src="./js/main.js"></script>
 	</body>
-	<script src="node_modules/jquery/dist/jquery.min.js"></script>
-	<script src="js/snap.svg.js"></script>
-	<script type = "text/javascript" src="test.js"></script>
+	
 </html>
